@@ -13,6 +13,13 @@
 		113B2DDC1A35E594007E67C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113B2DDB1A35E594007E67C6 /* Images.xcassets */; };
 		113B2DDF1A35E594007E67C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113B2DDD1A35E594007E67C6 /* LaunchScreen.xib */; };
 		113B2DEB1A35E594007E67C6 /* PlayDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B2DEA1A35E594007E67C6 /* PlayDiceTests.swift */; };
+		1188CBAE1A386CB800BFA954 /* icon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBA81A386CB800BFA954 /* icon_1.png */; };
+		1188CBAF1A386CB800BFA954 /* icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBA91A386CB800BFA954 /* icon_2.png */; };
+		1188CBB01A386CB800BFA954 /* icon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBAA1A386CB800BFA954 /* icon_3.png */; };
+		1188CBB11A386CB800BFA954 /* icon_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBAB1A386CB800BFA954 /* icon_4.png */; };
+		1188CBB21A386CB800BFA954 /* icon_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBAC1A386CB800BFA954 /* icon_5.png */; };
+		1188CBB31A386CB800BFA954 /* icon_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBAD1A386CB800BFA954 /* icon_6.png */; };
+		1188CBB51A386D4A00BFA954 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1188CBB41A386D4A00BFA954 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		113B2DE41A35E594007E67C6 /* PlayDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		113B2DE91A35E594007E67C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113B2DEA1A35E594007E67C6 /* PlayDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDiceTests.swift; sourceTree = "<group>"; };
+		1188CBA81A386CB800BFA954 /* icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_1.png; sourceTree = "<group>"; };
+		1188CBA91A386CB800BFA954 /* icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_2.png; sourceTree = "<group>"; };
+		1188CBAA1A386CB800BFA954 /* icon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_3.png; sourceTree = "<group>"; };
+		1188CBAB1A386CB800BFA954 /* icon_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_4.png; sourceTree = "<group>"; };
+		1188CBAC1A386CB800BFA954 /* icon_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_5.png; sourceTree = "<group>"; };
+		1188CBAD1A386CB800BFA954 /* icon_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_6.png; sourceTree = "<group>"; };
+		1188CBB41A386D4A00BFA954 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,13 @@
 		113B2DD11A35E594007E67C6 /* PlayDice */ = {
 			isa = PBXGroup;
 			children = (
+				1188CBB41A386D4A00BFA954 /* bg.png */,
+				1188CBA81A386CB800BFA954 /* icon_1.png */,
+				1188CBA91A386CB800BFA954 /* icon_2.png */,
+				1188CBAA1A386CB800BFA954 /* icon_3.png */,
+				1188CBAB1A386CB800BFA954 /* icon_4.png */,
+				1188CBAC1A386CB800BFA954 /* icon_5.png */,
+				1188CBAD1A386CB800BFA954 /* icon_6.png */,
 				113B2DD41A35E594007E67C6 /* AppDelegate.swift */,
 				113B2DD61A35E594007E67C6 /* ViewController.swift */,
 				113B2DD81A35E594007E67C6 /* Main.storyboard */,
@@ -192,9 +213,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1188CBB51A386D4A00BFA954 /* bg.png in Resources */,
 				113B2DDA1A35E594007E67C6 /* Main.storyboard in Resources */,
 				113B2DDF1A35E594007E67C6 /* LaunchScreen.xib in Resources */,
+				1188CBB31A386CB800BFA954 /* icon_6.png in Resources */,
+				1188CBB21A386CB800BFA954 /* icon_5.png in Resources */,
+				1188CBB01A386CB800BFA954 /* icon_3.png in Resources */,
+				1188CBAE1A386CB800BFA954 /* icon_1.png in Resources */,
+				1188CBB11A386CB800BFA954 /* icon_4.png in Resources */,
 				113B2DDC1A35E594007E67C6 /* Images.xcassets in Resources */,
+				1188CBAF1A386CB800BFA954 /* icon_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +435,7 @@
 				113B2DF01A35E594007E67C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		113B2DF11A35E594007E67C6 /* Build configuration list for PBXNativeTarget "PlayDiceTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +444,7 @@
 				113B2DF31A35E594007E67C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
